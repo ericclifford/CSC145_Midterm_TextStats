@@ -168,7 +168,9 @@ public class UserInput {
         //-----------------------------------------------
         // Adds special character count to String list
         //-----------------------------------------------
+        if(specialCount > 0){
         list = list.concat("\nSpecial Characters: " + specialCount);
+        }
         
         return list;
     }
